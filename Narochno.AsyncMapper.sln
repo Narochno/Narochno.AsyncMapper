@@ -7,6 +7,13 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Narochno.AsyncMapper", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7919AA58-D114-4ABE-A872-EFF7C30DBAE3}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AsyncMapperTester", "misc\AsyncMapperTester\AsyncMapperTester.xproj", "{8C365BDA-2C86-4FD3-9195-888B5D521F93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{0FCDCD80-C3CA-4B6E-940F-AA8D8BF546F8}"
+ProjectSection(SolutionItems) = preProject
+	global.json = global.json
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +24,16 @@ Global
 		{73A079EF-02D3-4BD6-985D-5D8611B33D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A079EF-02D3-4BD6-985D-5D8611B33D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A079EF-02D3-4BD6-985D-5D8611B33D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C365BDA-2C86-4FD3-9195-888B5D521F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C365BDA-2C86-4FD3-9195-888B5D521F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C365BDA-2C86-4FD3-9195-888B5D521F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C365BDA-2C86-4FD3-9195-888B5D521F93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{73A079EF-02D3-4BD6-985D-5D8611B33D73} = {7919AA58-D114-4ABE-A872-EFF7C30DBAE3}
+		{8C365BDA-2C86-4FD3-9195-888B5D521F93} = {0FCDCD80-C3CA-4B6E-940F-AA8D8BF546F8}
 	EndGlobalSection
 EndGlobal
