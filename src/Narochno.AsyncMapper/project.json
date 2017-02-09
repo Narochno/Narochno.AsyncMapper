@@ -1,0 +1,14 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable"
+  },
+  "dependencies": {
+      "AutoMapper": "5.2.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions":"1.1.0",
+      "Microsoft.Extensions.DependencyModel":"1.1.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {}
+  }
+}
