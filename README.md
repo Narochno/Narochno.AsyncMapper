@@ -4,12 +4,12 @@ This is a library that sits on top of [AutoMapper](http://automapper.org/) and a
 
 AutoMapper still does the generic work of mapping from objects.  However, to fill in extra data, sometimes you need an async source.
 
-## Why async? Are you doing too much in your mapper?
+## Why async?
 
-Maybe!  My problem domain:
+Problem domain:
 
-* I have aggregate domain objects that are built from different sources of data.
-* The biggest source of non-database data is a Redis cache, which is all async!
+* Aggregate domain objects that are built from different sources of data.
+* The biggest source of non-database data is a cache, which could be all async!
 * Fitting a domain on top of an aging database schema is hard.  So lots of code may be required to adapt this schema to a domain.  Other async sources may be required.
 
 Fitting the glue of building/mapping a domain object from data into a AutoMapper mapping just makes sense.
